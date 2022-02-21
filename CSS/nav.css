@@ -1,0 +1,75 @@
+.nav-bar{
+    width: 1300px;
+    background: #5433b5;
+    height: 70px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #343534;
+    font-family: Roboto;
+    font-size: 18px;
+}
+.nav-bar>ul{
+    width: 780px;
+    height: 100%;
+    margin: 0 auto;
+    list-style: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+}
+.nav-bar>ul>li{
+    width: 120px;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-right: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+.nav-bar>ul>.theloai{
+    padding-left: 30px;
+}
+.nav-bar>ul>li:hover{
+    color: aqua;
+}
+.mega-menu{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 760px;
+    height: 250px;
+    background: #343534;
+    transition: all 0.4s ease;
+    padding: 20px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+}
+.inner-mega-menu{
+    width: 24%;
+    float: left;
+    margin-right: 1%;
+}
+.inner-mega-menu>p{
+    padding: 5px 0;
+    text-align: left;
+}
+.nav-bar>ul>li:hover>.mega-menu{
+    color: white;
+}
+.nav-bar>ul>li>.mega-menu p:hover{
+    color: aqua;
+}
+.nav-bar ul li:hover .mega-menu{
+    z-index: 1;
+    visibility: visible;
+    opacity: 1;
+}
+.nav-bar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.nav-bar>ul>li>a:hover{
+    color: aqua;
+}

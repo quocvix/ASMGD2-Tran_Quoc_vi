@@ -1,0 +1,155 @@
+body{
+    background-color: F9FBFC;
+}
+.login{
+    position: relative;
+    width: 1123px;
+    height: 857px;
+    background: #E3EBF6;
+    border-radius: 40px;
+    display: inline-block;
+    left: 20%;
+    top: 25px;    
+}
+.login>h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #56648C;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.id{
+    position: absolute;
+    width: 400px;
+    height: 62px;
+    left: 100px;
+    top: 250px;
+    border: rgb(182, 196, 223) solid;
+    background: #FAFAFC;
+    border-radius: 25px;
+    padding-left: 30px;
+    font-size: 24px;
+}
+.pw{
+    position: absolute;
+    width: 400px;
+    height: 62px;
+    left: 100px;
+    top: 360px;
+    border: rgb(182, 196, 223) solid;
+    background: #FAFAFC;
+    border-radius: 25px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+.npw{
+    position: absolute;
+    width: 400px;
+    height: 62px;
+    left: 100px;
+    top: 470px;
+    border: rgb(182, 196, 223) solid;
+    background: #FAFAFC;
+    border-radius: 25px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+input::placeholder{
+    position: absolute;
+    left:  30px;
+    bottom: 15px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: rgba(0, 0, 0, 0.47);
+}
+a>.DN{
+    position: absolute;
+    width: 350px;
+    height: 62px;
+    right: -100px;
+    top: 55px;   
+    background: #445279;
+    border-radius: 20px;
+}
+button>p{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Roboto;
+    bottom: 6px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Roboto;
+    color: black;
+    position: absolute;
+    top: 515px;
+    left: 380px;
+}
+.tk{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Roboto;
+    color: black;
+    position: absolute;
+    top: 650px;
+    left: 135px;
+}
+.dn{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Roboto;
+    color: blue;
+    position: absolute;
+    top: 670px;
+    left: 300px;
+}
+.dk:hover{
+    color: orange;
+}
+.qv{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Roboto;
+    color: black;
+    position: absolute;
+    top: 700px;
+    left: 135px;
+}
+.tc{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Roboto;
+    color: blue;
+    position: absolute;
+    top: 720px;
+    left: 210px;
+}
+.tc:hover{
+    color: orange;
+}
+.pic>.up{
+    position: absolute;
+    width: 479px;
+    height: 200px;
+    left: 1000px;
+    top: 120px;
+}
+.pic>.down{
+    position: absolute;
+    width: 479px;
+    height: 300px;
+    left: 1000px;
+    top: 450px;
+}

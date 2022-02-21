@@ -1,0 +1,24 @@
+.truyenmoi>.layout>.layout-item>.hinh1{
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+}
+.truyenmoi>.layout>.layout-item>.hinh1:hover{
+    color: orange;
+}
+.truyenboy>.layout>.layout-item>.hinh1{
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+}
+.truyenboy>.layout>.layout-item>.hinh1:hover{
+    color: orange;
+}
+.truyengirl>.layout>.layout-item>.hinh1{
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+}
+.truyengirl>.layout>.layout-item>.hinh1:hover{
+    color: orange;
+}

@@ -1,0 +1,189 @@
+article{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.truyenhot{
+    position: absolute;
+    width: 43px;
+    height: 42px;
+    top: 170px;
+}
+.truyenhot>img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 30px;
+
+}
+.truyenhot>P{
+    position: absolute;
+    width: 190px;
+    height: 43px;
+    bottom: -70px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+    left: 70px;
+}
+.truyenhot>a>img:hover{
+    border: 1px solid black;
+}
+
+.truyenhot>a>.anh1{
+    position: absolute;
+    width: 500px;
+    height: 310px;
+    top: 100px;
+    left: 260px;
+}
+.truyenhot>a>.anh2{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 100px;
+    left: 50px;
+}
+.truyenhot>a>.anh3{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+
+    top: 260px;
+    left: 50px;
+}
+.truyenhot>a>.anh4{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 770px;
+    top: 100px;
+
+}
+.truyenhot>a>.anh5{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 770px;
+    top: 260px;
+}
+/*  */
+.layout-item>a>img:hover{
+    box-shadow: 0px 0px 20px orange;
+}
+
+.truyenmoi{
+    position: absolute;
+    width: 43px;
+    height: 42px;
+    top: 650px;
+}
+.truyenmoi>img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.truyenmoi>p{
+    position: absolute;
+    width: 350px;
+    height: 43px;
+    top: -20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+    left: 70px;
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+    position: relative;
+    padding-top: 150px;
+    bottom: 50px;
+}
+.layout-item>a>img{
+    width: 170px;
+    height: 320px;
+    border-radius: 10px;
+}
+.xemthem{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 425px;
+    top: 500px;
+    background: #03519A;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.xemthem1{
+    position: absolute;
+    width: 168px;
+    height: 28px;
+    padding-left: 47px;
+    top: -5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.xemthem1:hover{
+    color: orange;   
+}
+
+.truyenboy{
+    position: absolute;
+    width: 43px;
+    height: 42px;
+    top: 1250px;
+}
+.truyenboy>img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.truyenboy>p{
+    position: absolute;
+    width: 350px;
+    height: 43px;
+    top: -20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+    left: 70px;
+}
+.truyengirl{
+    position: absolute;
+    width: 42px;
+    height: 45px;
+    top: 1850px;
+}
+.truyengirl>img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.truyengirl>p{
+    position: absolute;
+    width: 350px;
+    height: 43px;
+    top: -20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+    left: 70px;
+}

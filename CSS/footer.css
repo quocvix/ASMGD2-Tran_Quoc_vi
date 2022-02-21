@@ -1,0 +1,71 @@
+footer{
+    position: relative;
+    width: 1300px;
+    height: 192px;
+    top: 2300px;
+    background-color: #373139;
+}
+.footer-layout>.gura-icon{
+    position: absolute;
+    width: 180px;
+    height: 180px;  
+
+}
+.footer-word{
+    display: inline;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: Roboto;
+    position: absolute;
+    color: white;
+    left: 70px;
+    margin-left: 10%;
+}
+.footer-fb>img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 70px;
+    top: 100px;
+    margin-left: 10%;
+}
+.footer-tw>img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 120px;
+    top: 100px;
+    margin-left: 10%;
+}
+.footer-ig>img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 170px;
+    top: 100px;
+    margin-left: 10%;
+}
+.footer-ID{
+    display: inline;
+    font-size: 20px;
+    line-height: 32px;
+    position: absolute;
+    color: white;
+    left: 70px;
+    top: 140px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.footer-layout>.gura-footer{
+    position: relative;
+    width: 303px;
+    height: 183px;
+    top: 5px;
+    float: right;  
+    right: 5px;  
+}
+.like{
+    position: absolute;
+    top: 157px;
+    left: 500px;
+}

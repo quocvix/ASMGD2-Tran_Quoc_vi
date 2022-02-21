@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ebebeb;
+}
+.container{
+    width: 1300px;
+    margin: auto;
+}
+.container>header{
+    background-color: #e1dde7;
+    height: 100px;
+    position: relative;
+    width: 100%;
+}
+.container>header>.icon-web>a>img{
+    position: absolute;
+    width: 100px;
+    height: 100px;    
+ 
+}
+.container>header>.icon-web>.chu{
+    text-decoration: none;
+    position: absolute;
+    width: 160px;
+    height: 41px;
+    padding-left: 100px;
+    bottom: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 20px;
+    color: #2B2929;  
+}
+.chu>.vix{
+    color: blue;
+}
+.chu>p{
+    float: left;
+}
+.timkiem>form>input{
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    border: 1px solid #2B2929;
+    border-radius: 37px;
+    font-size: 27px;
+    padding-left: 40px;
+    border: 1px solid black;
+    left: 330px;
+    top: 20px;
+}
+input::placeholder{
+    position: absolute;
+    width: 159px;
+    height: 33px;
+    top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    color: rgba(0, 0, 0, 0.24);
+    
+}
+.timkiem>a>img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 680px;
+    top: 35px;
+}
+.lichsu{
+    position: absolute;
+    width: 112px;
+    height: 41px;
+    left: 850px;
+    top: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 39px;
+    color: #2B2929;
+    cursor: pointer; 
+}
+.theodoi{
+    position: absolute;
+    width: 139px;
+    height: 43px;
+    left: 1000px;
+    top: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 39px;
+    color: #2B2929;
+    cursor: pointer;
+}
+.login>a>img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1200px;
+    top: 25px;
+}

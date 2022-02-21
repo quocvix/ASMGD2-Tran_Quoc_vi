@@ -1,0 +1,123 @@
+article{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+/*  */
+.layout-item>a>img:hover{
+    box-shadow: 0px 0px 20px orange;
+}
+
+.truyenmoi{
+    position: absolute;
+    width: 43px;
+    height: 42px;
+
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+    position: relative;
+    padding-top: 150px;
+    bottom: 50px;
+}
+.layout-item>a>img{
+    width: 170px;
+    height: 320px;
+    border-radius: 10px;
+}
+
+.truyenboy{
+    position: absolute;
+    width: 43px;
+    height: 42px;
+    top: 600px;
+}
+
+.truyengirl{
+    position: absolute;
+    width: 42px;
+    height: 45px;
+    top: 1050px;
+}
+.truyencuoi{
+    position: absolute;
+    width: 42px;
+    height: 45px;
+    top: 1500px;
+}
+footer{
+    position: relative;
+    width: 1300px;
+    height: 192px;
+    top: 1900px;
+    background-color: #373139;
+}
+.footer-layout>.gura-icon{
+    position: absolute;
+    width: 180px;
+    height: 180px;  
+
+}
+.footer-word{
+    display: inline;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: Roboto;
+    position: absolute;
+    color: white;
+    left: 70px;
+    margin-left: 10%;
+}
+.footer-fb>img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 70px;
+    top: 100px;
+    margin-left: 10%;
+}
+.footer-tw>img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 120px;
+    top: 100px;
+    margin-left: 10%;
+}
+.footer-ig>img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 170px;
+    top: 100px;
+    margin-left: 10%;
+}
+.footer-ID{
+    display: inline;
+    font-size: 20px;
+    line-height: 32px;
+    position: absolute;
+    color: white;
+    left: 70px;
+    top: 140px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.footer-layout>.gura-footer{
+    position: relative;
+    width: 303px;
+    height: 183px;
+    top: 5px;
+    float: right;  
+    right: 5px;  
+}
+.like{
+    position: absolute;
+    top: 157px;
+    left: 500px;
+}
